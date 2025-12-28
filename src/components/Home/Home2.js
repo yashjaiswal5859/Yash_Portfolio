@@ -5,8 +5,10 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillInstagram
 } from "react-icons/ai";
+import { FaCode } from "react-icons/fa";
+
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -29,7 +31,7 @@ function Home2() {
               &nbsp; and can quickly adapt to any technology or programming language.
               <br />
               <br />
-              I have solved <b className="purple">1500+ DSA Problems</b> showcasing my strong problem solving skills.
+              I have solved <b className="purple">2500+ DSA Problems</b> showcasing my strong problem solving skills.
               <br />
               <br />
               I am at the <b className="purple">top 4% in Leetcode (Knight)</b> and <b className="purple">top 3% in Coding Ninjas (Master)</b>.
@@ -44,7 +46,31 @@ function Home2() {
                 </b>
               </i>
               <br />
+<br />
+I have built multiple <b className="purple">full-stack projects</b> using 
+<b className="purple"> monolithic and microservices architectures</b>.
+<br />
+<br />
+I have tried to design <b className="purple">scalable backend systems</b> using 
+<b className="purple"> Docker-based horizontal scaling</b> 
+(without Kubernetes due to budget constraints) and implemented 
+<b className="purple"> Redis</b> for caching and asynchronous processing.
+<br /><br />
+I also used <b className="purple">Redis-based queues</b> for 
+<b className="purple"> producer–consumer communication</b>, 
+serving as a lightweight alternative to Kafka.
+<br />
+
+<br />
+I focus on building <b className="purple">clean, maintainable, and production-ready backend systems</b>.
+<br />
+<br />
+Currently, I am learning <b className="purple">system design</b> from 
+<b className="purple"> Harkirat Singh</b> and applying these concepts while building real-world projects.
+
               <br />
+              <br />
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -90,6 +116,17 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="https://codolio.com/profile/yash_"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaCode />
+                </a>
+              </li>
+              
             </ul>
           </Col>
         </Row>
